@@ -37,9 +37,9 @@ var getUserRepos = function(user) {
     // Notice this `.catch()` getting chained onto the end of the `.then()` method
     alert("Unable to connect to GitHub");
   });
-  
 
-  userFormEl.addEventListener("submit", formSubmitHandler);
+}
+userFormEl.addEventListener("submit", formSubmitHandler);
 
   var displayRepos = function(repos, searchTerm) {
       //check if api returned any repos
